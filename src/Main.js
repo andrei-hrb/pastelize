@@ -13,7 +13,7 @@ const Main = ({ color, pastel, handleColorChange }) => (
             <div className='relative rounded-lg w-40 h-40 overflow-hidden'>
                 <input
                     type='color'
-                    className='absolute -inset-2 w-44 h-84'
+                    className='absolute -inset-2 w-44 h-44'
                     value={pastel}
                     readOnly
                 />
