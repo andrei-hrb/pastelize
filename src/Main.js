@@ -9,6 +9,12 @@ const Main = ({ color, pastel, handleColorChange }) => (
                     className='absolute -inset-2 w-44 h-44'
                 />
             </div>
+            <input
+                type='text'
+                className='text-xl border text-center w-40 rounded-lg'
+                value={color}
+                onChange={handleColorChange}
+            />
             <span>⬇️</span>
             <div className='relative rounded-lg w-40 h-40 overflow-hidden'>
                 <input
@@ -18,6 +24,12 @@ const Main = ({ color, pastel, handleColorChange }) => (
                     readOnly
                 />
             </div>
+            <input
+                type='text'
+                className='text-xl border text-center w-40 rounded-lg'
+                value={pastel}
+                readOnly
+            />
         </div>
     </main>
 )
